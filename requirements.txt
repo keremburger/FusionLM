@@ -1,0 +1,49 @@
+# =============================================================================
+# FusionLM — Python dependencies
+#
+# Note: Ollama itself is NOT a pip package. Install it separately from
+# https://ollama.com and make sure it's running (`ollama serve`) with at
+# least one model pulled (e.g. `ollama pull llama3.1`) before starting the app.
+# =============================================================================
+
+# ---- Core (required) ----
+PyQt6
+ollama
+requests
+beautifulsoup4
+markdown
+psutil
+numpy
+sounddevice
+Pillow
+opencv-python
+
+# ---- Voice: Speech-to-Text (Whisper — default STT engine) ----
+faster-whisper
+
+# ---- Voice: Text-to-Speech (EdgeTTS — default TTS engine, free, needs internet) ----
+edge-tts
+miniaudio
+
+# ---- Web search / news actions (actions.py) ----
+ddgs
+
+# ---- Optional: desktop-automation actions (open_app Windows fallback, send_message) ----
+pyautogui
+pyperclip
+
+# =============================================================================
+# Optional extras — uncomment only what you need
+# =============================================================================
+
+# Alternative offline STT engine (lighter than Whisper, streaming)
+# vosk
+
+# Fully offline TTS engine (no internet needed after first download, ~330MB)
+# Does NOT support Turkish — use EdgeTTS for Turkish.
+# kokoro>=0.9
+# soundfile
+# torch          # optional, enables GPU acceleration for Kokoro/Whisper
+
+# GPU utilization in the status bar (NVIDIA only)
+# pynvml
