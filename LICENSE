@@ -1,0 +1,39 @@
+FusionLM
+
+Copyright (c) 2026 kquid (repository owner)
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+Personal and non-commercial use only.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+or send a letter to Creative Commons, PO Box 1866, Mountain View,
+CA 94042, USA.
+
+---
+
+Summary (not a substitute for the full license text above):
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial — You may not use the material for commercial purposes.
+  - No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+---
+
+Third-party notice:
+
+Parts of this project (actions, TTS, STT integration) were forked and
+adapted from Fatih Makes' project "Mark-XLIX"
+(https://github.com/FatihMakes/Mark-XLIX). Full credit to the original
+author for that portion of the codebase.
